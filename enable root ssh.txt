@@ -21,7 +21,7 @@ command : nano /etc/ssh/sshd_config
 ctl + s kr k save kr lo file ko
 
 phir 
-command : systemctl restart sshd
+command : systemctl restart sshd 
 
 
 phir password set kro root ka
@@ -29,7 +29,7 @@ phir password set kro root ka
 command : passwd
 or password passwd12345
 
-
+zaid khan 
 
 bs itna kam ha 
 
