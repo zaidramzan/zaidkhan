@@ -1,0 +1,35 @@
+sb se pehle jaha private key pari ha wo dir open krin ha 
+us k bad cmd ko open krna h uper cmd lihk ker
+
+ssh -i ssh-key-2025-01-23.key ubuntu@84.235.242.108   
+
+
+
+ye krna ha bs 
+or ssh set krna k lia
+
+login krne k bad root me aaao gha
+command : sudo su
+
+file open kro gha 
+command : nano /etc/ssh/sshd_config 
+
+1. Include /etc/ssh/sshd_config.d/*.conf start me # add kr do 
+2. #PermitRootLogin yes  start me jo # he use khtm kr do 
+3. #PasswordAuthentication yes start me jo # h use khtm kr do
+
+ctl + s kr k save kr lo file ko
+
+phir 
+command : systemctl restart sshd
+
+
+phir password set kro root ka
+ 
+command : passwd
+or password passwd12345
+
+
+
+bs itna kam ha 
+
