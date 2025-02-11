@@ -1,0 +1,18 @@
+vs code ma dockerfile create ki ha
+FROM python:3
+ENV PYTHONUNBUFFERED=1
+WORKDIR /code
+COPY . /code/ 
+RUN pip install -r requirements.txt
+ENTRYPOINT [ "python manage.py runserver" 
+
+dockerfile koc create karna ki commnand      
+                                        docker build -t my-image-name .
+
+google cloud ma registery create ki ha 
+
+services account create karna ha or djaingovoices ya koi or name dana ha
+vs code ma docker images add karne ha 
+vs code ma docker push add karne ha 
+gcloud auth command ko run karna ha  activate-service-account --key-file="C:\Users\Links\Downloads\apt-reality-449210-e6-244d90748785.json"
+
