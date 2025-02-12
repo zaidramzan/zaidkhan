@@ -1,0 +1,69 @@
+docker pull (image name)   (id name)    computer ma ya laptop 
+ReName Tag (image Id)     django name ya latest : tag  
+
+
+  Remove image
+            docker Rmi ( image id ) ya (name) 
+
+
+  Remove container   
+                  docker Rm    (container)
+
+      Registry 
+              docker hub 
+              mzaidkhan/ djongo-invoices 
+               (mzaidkhan/django-invoiceL: latest
+
+
+
+  to build image     (docker file   Reg)
+
+       docker build  -t (gcp-reg-name)    . 
+
+
+   domain 
+           (reg.   abc.com)/zaid:latest 
+
+
+                to push  
+                       docker push image-name:tag
+
+   ports Run container 
+                    project port = 8000 
+
+                                   host machine 
+          docker Run -itd -p 1100:8000   image name ya tag
+
+
+
+              container   1100 per machine 
+
+              
+                ya container 8000 port container 
+
+
+                          bind 
+
+                         1100:8000
+                         1101:8000 
+                        1102:8000
+
+    docker file all run form 
+
+                1   from base image :tag
+
+                2   Workeid  {app}   
+
+                3  copy     {app}
+
+                4 expose  8000
+
+                5 run   command
+
+                6  run   command
+
+                7  entry point  {python mange.py run seruar}
+
+                                npm run stort 
+
+      
