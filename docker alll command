@@ -1,0 +1,8 @@
+docker image ko check karna ki command 
+
+       docker images 
+
+  docker ko run container chlana ki command 
+
+       docker run -itd -p 8001:8000 e9fc9fc2fdab
+
