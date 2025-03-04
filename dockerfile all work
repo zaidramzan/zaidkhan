@@ -1,6 +1,33 @@
+docker destop on karna 
 
 docker ki file create karna ho ge 
 
-      1   FORAM 
-      2   RUN 
-      3   
+            FROM python:3.9
+            WORKDIR /app
+            COPY requirements.txt .
+           RUN pip install -r requirements.txt
+             EXPOSE 8000
+               COPY . .
+                ENTRYPOINT ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
+
+
+docker imagrs create karna 
+
+docker build create karna ki command
+       docker build -t django-invoice .
+
+
+docker run karna ki command
+      docker run -itd -p 8001:8000 django-invoice
+
+
+docker container ko check karna ki command 
+
+       docker ps -a
+
+
+docker logs check karna ki command 
+      -f dafa3c70ba58
+
+
+
