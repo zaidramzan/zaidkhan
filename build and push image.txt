@@ -6,14 +6,24 @@ COPY . /code/
 RUN pip install -r requirements.txt
 ENTRYPOINT [ "python manage.py runserver" 
 
-dockerfile koc create karna ki commnand      
-                                        docker build -t my-image-name .
+gcp account ma service account ma add key karne ha 
+
+
+gcloud auth command ko run karna ha   :gcloud activate-service-account --key-file="C:\Users\Links\Downloads\apt-reality-449210-e6-244d90748785.json"
+
 
 google cloud ma registery create ki ha 
 
 services account create karna ha or djaingovoices ya koi or name dana ha
-vs code ma docker images add karne ha 
-vs code ma docker push add karne ha 
-gcloud auth command ko run karna ha  activate-service-account --key-file="C:\Users\Links\Downloads\apt-reality-449210-e6-244d90748785.json"
+vs code ma docker images add karne ha ki command 
+             docker build -t myimage:latest .
+
+docker images ki rename karna ki command 
+                 docker tag ka bad rename kaarna ha url dana ha 
+                                        
+           docker tag django-invoices asia-south1-docker.pkg.dev/apt-reality-449210-e6/django-invoices/django-invoices
+vs code ma docker push add karne ki command 
+
+          docker push asia-south1-docker.pkg.dev/apt-reality-449210-e6/django-invoices/django-invoices
 
 
